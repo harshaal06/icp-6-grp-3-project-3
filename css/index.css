@@ -28,6 +28,9 @@ font-size: 40px;
 .title-content{
     position: relative;
 } 
+.like-h{
+    height: 25px;
+}
 .content{
     position: absolute;
     margin-top: -450px;
