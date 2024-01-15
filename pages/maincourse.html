@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+
+        body{
+            background-color: #eef3f7;
+        }
+        .custom-search-container {
+      max-width: 600px; 
+      margin: 0 auto;
+    }
+
+    .custom-search-bar {
+      width: 100px; 
+    }
+    .cards{
+        margin-top: 30px; 
+        margin-left: 10px;
+        justify-content:space-around;
+        box-shadow: 1px 3px 5px black;
+        position: relative;
+    }
+    .card1{
+      margin: 30px;
+      box-shadow: 1px 3px 10px black;
+    }
+    .card1:hover{
+      box-shadow: 2px 2px 15px black;
+      transform: scale(1.03);
+    }
+    .cards:hover{
+      box-shadow: 2px 2px 15px black;
+      transform: scale(1.03);
+    }
+    .treding-card{
+      box-shadow: 1px 3px 10px black;
+    }
+    .treding-card:hover{
+      box-shadow: 2px 2px 15px black;
+      transform: scale(1.03);
+    }
+    .card-img:hover{
+       transform: scale(1.03);
+    }
+    .btn-1{
+      background-color: #fff;
+      color: black;
+      border: 1px solid black;
+      border-radius: 50px;
+      
+    }
+    .btn-2{
+      background-color: #fd5f04;
+      border: none ;
+      border-radius: 60px;
+      color: rgb(8, 8, 8);
+      margin-left: 5px;
+    }
+    .btn-0{
+      background-color: #fd5f04;
+      border: none ;
+      border-radius: 60px;
+      color: rgb(8, 8, 8);
+      margin-left: 400px;
+    }
+    .btn-0:hover{
+      background-color: #fff;
+      color: black;
+      border: 1px solid black;
+      border-radius: 50px;
+    }
+    .btn-1:hover{
+      background-color: #fd5f04;
+      border: none ;
+      border-radius: 60px;
+      color: rgb(8, 8, 8);
+    }
+    .btn-2:hover{
+      background-color: #fff;
+      color: black;
+      border: 1px solid black;
+      border-radius: 50px;
+     
+    }
+    .veg-icon{
+      position: absolute;
+      width: 80px;
+      left: 220px;
+      top: -15px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .like-icon{
+      position: absolute;
+      width: 80px;
+      left: 220px;
+      top: 230px;
+      margin: 0 auto;
+      padding: 30px;
+      border-radius: 10px;
+    }
+    .like-icon:hover{
+      color: red;
+    }
+    
+
+
+  
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6 custom-search-container">
+            <form class="form-inline">
+              <div class="input-group mx-auto">
+                <input type="text" class="form-control custom-search-bar " placeholder="Search food here,main course " aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">Search</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br/>
+
+    <img src="https://assets.epicurious.com/photos/5a3002b504847a34b821cb4a/16:9/w_1600%2Cc_limit/seared-scallops-with-brown-butter-and-lemon-pan-sauce-recipe-BA-121217.jpg" class="img-fluid" alt="..." style="height: 500px; width: 100%;">
+   <br/>
+<br/>
+    <marquee>
+        <h4>---------MAIN COURSE FOOD---------</h4>
+    </marquee>
+    <hr>
+    <div style="font-size: 30px; text-align: center;">
+      WHAT WE'RE CRAVING
+    </div>
+
+  
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-6">
+        <div class="card card1">
+          <img src="https://img.sndimg.com/food/image/upload/w_621,h_349,c_fill,fl_progressive,q_80/v1/img/recipes/87/18/7/Hs5lIWgjS3ygawdes5aD_tuna%20chickpea%20SITE-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><h5>MOCK TUNA SALAD (CHICKPEA SALAD)</h5>
+              "This is the best mock tuna I've tried. As is and with my modifications, it's delicious! I don't change anything other than add shredded carrots, garlic and paprika."<br/><br/>
+              <p>-The Veganista.</p><a href="#" class="btn btn-0">Order Now</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card card1">
+          <img src="https://img.sndimg.com/food/image/upload/w_621,h_349,c_fill,fl_progressive,q_80/v1/img/recipes/53/87/22/XwasSoVDQbiJIV91kylg_0S9A4365.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><h5> QUICK & EASY POT ROAST</h5>
+              "I loved this pot roast! It was practically falling apart from how tender it was! It took no time at all, which is a major plus! "This is excellent! It was tasty, filling and just the right texture." <br/><br/>
+               <p>-Jonathan Melendez</p><a href="#" class="btn btn-0">Order Now</a>
+              </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card card1">
+          <img src="https://img.sndimg.com/food/image/upload/w_621,h_349,c_fill,fl_progressive,q_80/v1/img/recipes/53/96/14/fMWvGG0SQzSZgZeIjw1O_0S9A7761.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><h5>INSTANT POT PRIME RIB</h5>
+              "This is an excellent recipe and does have great flavours. We always sear the roast before pressure cooking as we find this adds extra flavour to the gravy and also makes the juices much darker."<br/><br/>
+              <p> -John D.</p><a href="#" class="btn btn-0">Order Now</a>
+             </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card card1">
+          <img src="https://img.sndimg.com/food/image/upload/w_621,h_349,c_fill,fl_progressive,q_80/v1/img/recipes/12/35/03/rg7j5OxMSlCFwfLyCxsL_stroganoff-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text"><h5>BEEF STROGANOFF</h5>
+              “I made this a few weeks ago and the family said it was the best they’d ever had! My grandson’s birthday is tomorrow and he said he wanted beef stroganoff to celebrate! It’s a hit.”<br/><br/>
+              <p>-fourrs339</p><a href="#" class="btn btn-0">Order Now</a>
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+     
+    <div style="font-size: 30px; text-align: center;">
+      OURS SPECIAL OFFERS
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/5b770caff1ff6a661bb16346/1:1/w_800%2Cc_limit/Should-I-Be-Using-Grilling-Planks-2-16082018.jpg" class="card-img-top card-img" alt="...">
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body ">
+                      <h5 class="card-title">Keto Peri Peri Grilled Chicken Steak <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://www.vhv.rs/dpng/d/437-4370761_non-veg-icon-non-veg-logo-png-transparent.png" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del><br/>50% OFF</p>
+                      <a href="#" href="order now.html" class="btn btn-1">Add to Cart <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                      </svg></a> <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/5a3002b504847a34b821cb4a/1:1/w_1600%2Cc_limit/seared-scallops-with-brown-butter-and-lemon-pan-sauce-recipe-BA-121217.jpg" class="card-img-top card-img" alt="..." >
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body ">
+                      <h5 class="card-title">Seared Scallops With Brown Butter <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://icon2.cleanpng.com/20180601/ae/kisspng-vegetarian-cuisine-biryani-indian-cuisine-vegetabl-vegetarian-5b11c2357677b7.0724399215278904854853.jpg" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del> <br/>50% OFF</p>
+                      <a href="#" class="btn btn-1">Add to Cart<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                      </svg></a> <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/5ec6fbed9c06515dc08fb4a1/1:1/w_1600%2Cc_limit/GrilledPizza_HERO_051820_7725.jpg" class="card-img-top card-img" alt="...">
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body ">
+                      <h5 class="card-title">Grilled Mediterranean Veg Focaccia <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://icon2.cleanpng.com/20180601/ae/kisspng-vegetarian-cuisine-biryani-indian-cuisine-vegetabl-vegetarian-5b11c2357677b7.0724399215278904854853.jpg" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del> <br/>50% OFF</p>
+                      <a href="#" class="btn btn-1">Add to Cart</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/60d0baca2162cdf71bb2d8db/1:1/w_1600%2Cc_limit/GadoGado_RECIPE_061721_18121.jpg" class="card-img-top card-img" alt="...">
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body ">
+                      <h5 class="card-title">Jalapeno Chicken Popcorn Cheesey Mac<span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://www.vhv.rs/dpng/d/437-4370761_non-veg-icon-non-veg-logo-png-transparent.png" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del> <br/>50% OFF</p>
+                      <a href="#" class="btn btn-1">Add to Cart</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+        
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/60abd3d94128fb7fa6411297/1:1/w_1600%2Cc_limit/ScallopsPineAppleRisotto_HERO_RECIPE_052021_16402.jpg" class="card-img-top card-img" alt="...">
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Seared Scallops With Basil Risotto <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://www.vhv.rs/dpng/d/437-4370761_non-veg-icon-non-veg-logo-png-transparent.png" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del> <br/>50% OFF</p>
+                      <a href="#" class="btn btn-1">Add to Cart</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card cards" style="width: 18rem;">
+                    <img src="https://assets.epicurious.com/photos/5f452409a075954f3cca3443/1:1/w_1600%2Cc_limit/tomato-and-roasted-garlic-pie-recipe-BA-082520.jpg" class="card-img-top card-img" alt="...">
+                    <i class="https://img.icons8.com/?size=48&id=61083&format=png"></i>
+                    <div class="card-body">
+                      <h5 class="card-title">Tomato and Roasted Garlic Pie <span class="like-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+                      </svg></span></h5><br/><img src="https://icon2.cleanpng.com/20180601/ae/kisspng-vegetarian-cuisine-biryani-indian-cuisine-vegetabl-vegetarian-5b11c2357677b7.0724399215278904854853.jpg" class="veg-icon">
+                      <p class="card-text"><b style="font-size: 20px;">₹ 149</b>&nbsp; <del style="color: gray;">₹ 299</del> <br/>50% OFF</p>
+                      <a href="#" class="btn  btn-1">Add to Cart</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="#" class="btn btn-2">Order Now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+   <div style="font-size: 30px; text-align: center;">
+      TRENDING NOW
+    </div>
+    <br/>
+  
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="col mb-6">
+        <div class="card h-100 treding-card">
+          <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_350,ar_4:3/v1/img/recipes/13/34/48/ajTdwsRkQcKBjf9TInCs_untitled-1175.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">CREAMY RAMEN NOODLES</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card h-100 treding-card">
+          <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_350,ar_4:3/v1/img/recipes/22/75/4/6SPX9PQ6WWdM49K06A1A_pizzaaa.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">EASY AND QUICK HOMEMADE PIZZA</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card h-100 treding-card">
+          <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_350,ar_4:3/v1/img/recipes/24/83/39/Pt3kixozQE6ULkIGzg1o_BOBA1%2520(1%2520of%25201).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY CAKE BUBBLE TEA
+            </h5>
+           
+          </div>
+        </div>
+      </div>
+      <div class="col mb-6">
+        <div class="card h-100 treding-card">
+          <img src="https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_350,ar_4:3/v1/img/recipes/39/01/3/aeAtoOWHSeWQh9UD7W3K_0S9A6192.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">WHIPPED CREAM FROSTING
+            </h5>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
