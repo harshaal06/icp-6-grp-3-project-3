@@ -2,104 +2,184 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order Now</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/review.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Now</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/review.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2">
-        <div class="container-fluid mx-5">
-          <a class="navbar-brand ms-md-5 ms-md-0 fs-3 ha" href="#">Name</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0" aria-current="page" href="../index.html">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle ms-md-2 ms-md-0" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Menu
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0" href="./review.html">Review</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0" href="#">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0" href="./contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0" href="#">Login/Register</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link ms-md-2 ms-md-0 me-5 rounded active border bag text-center" href="./orderNow.html">Order Now</a>
-              </li>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary mt-2">
+    <div class="container-fluid mx-5">
+      <a class="navbar-brand ms-md-5 ms-md-0 fs-3 ha" href="#">Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle ms-md-2 ms-md-0" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0" href="./review.html">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0" href="#">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0" href="#">Login/Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link ms-md-2 ms-md-0 me-5 rounded active border bag text-center" href="./orderNow.html">Order
+              Now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mb-5">
+    <div class="container">
+      <div class="row d-flex my-5 ms-md-5">
+        <div class="col-md-7 col-xs-12 bg-white border m-2 p-5 shadow">
+          <h3>Shipping Information</h3>
+          <p class="my-2 mt-5">Full Name :</p>
+          <input type="text" placeholder="Your first and last name" required
+            class="w-100 p-2 px-3 rounded border border-black">
+          <p class="my-2 mt-4">Address :</p>
+          <textarea name="Message" rows="3" placeholder="Write your detail address" required
+            class="w-100 p-2 px-3 rounded border border-black"></textarea>
+          <div class="row my-2 mt-3 d-flex justify-content-between">
+            <div class="col-md-5 col-xs-12">
+              <p class="my-2">City :</p>
+              <input type="text" placeholder="Your city" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <p class="my-2">State :</p>
+              <input type="text" placeholder="Your state" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+            <div class="col-md-3 col-xs-12">
+              <p class="my-2">ZIP Code</p>
+              <input type="number" placeholder="000-000" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+          </div>
+          <div class="row my-2 mt-3 d-flex justify-content-between">
+            <div class="col-md-6 col-xs-12">
+              <p class="my-2">Mob. No. :</p>
+              <input type="number" placeholder="1234567890" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+            <div class="col-md-6 col-xs-12">
+              <p class="my-2">Email Address :</p>
+              <input type="text" placeholder="email@example.com" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+          </div>
+          <input type="checkbox" class="my-2 mt-4"> Billing Address is same as shipping
+        </div>
+        <div class="col-md-4 col-xs-12 bg-white border m-2 p-5 pb-3 h-25 shadow">
+          <h3 class="mb-4">Order Summary</h3>
+          <div id="addToCard-Box">
+            
+          </div>
+          <div class="d-flex justify-content-between mt-3">
+            <p>Total</p>
+            <p class="ha">1300/-</p>
           </div>
         </div>
-      </nav>
-
-    <div class="container my-5">
-        <div class="row">
-            <div class="d-flex">
-                <form class="card mx-3 w-75 ps-5 py-5 shadow">
-                    <h1>ADDRESS DETAILS</h1>
-                    <p>Enter your correct address</p>
-                    <h3 class="my-3">Delivery address</h3>
-                    <div class="d-flex">
-                        <p class="mb-2 me-5">First Name :<br>
-                            <input type="text" placeholder="Enter First Name" required
-                                class="p-2 px-3 rounded border border-black w-100">
-                        </p>
-                        <p class="mb-2 ms-5">Last Name :<br>
-                            <input type="text" placeholder="Enter Last Name" required
-                                class="p-2 px-3 rounded border border-black w-100">
-                        </p>
-                    </div>
-                    <p class="mb-2 my-3">Street Address :</p>
-                    <input type="text" placeholder="Street and Number" required class="p-2 px-3 rounded border border-black w-75">
-                    <div class="d-flex my-4">
-                        <p class="me-5">City :<br>
-                            <input type="text" placeholder="Enter City" required
-                                class="p-2 px-3 rounded border border-black w-100">
-                        </p>
-                        <p class="ms-5">ZIP Code :<br>
-                            <input type="text" placeholder="000-000" required
-                                class="p-2 px-3 rounded border border-black w-100">
-                        </p>
-                    </div>
-                    <p class="mb-2">Country :</p>
-                    <input list="Country" required class="p-2 px-3 rounded border border-black w-25">
-                    <datalist id="Country"></datalist>
-                    <p class="mb-2 my-4">Phone No. :</p>
-                    <input type="text" placeholder="1234567890" required class="p-2 px-3 rounded border border-black w-25">
-                </form>
-                <div class="card mx-3 w-25">
-                    <h2>aglawe</h2>
-                </div>
+        <div class="col-md-7 col-xs-12 bg-white border m-2 p-5 shadow">
+          <h3>Payment Information</h3>
+          <p class="my-2 mt-5">Credit Card Number :</p>
+          <input type="text" placeholder="**** **** **** ****" required
+            class="w-100 p-2 px-3 rounded border border-black">
+          <div class="row my-2 mt-3 d-flex justify-content-between">
+            <div class="col-md-5 col-xs-12">
+              <p class="my-2">CVV Number :</p>
+              <input type="text" placeholder="CVV" required class="w-100 p-2 px-3 rounded border border-black">
             </div>
+            <div class="col-md-4 col-xs-6">
+              <p class="my-2">Exp. Month :</p>
+              <input type="text" placeholder="Month" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+            <div class="col-md-3 col-xs-6">
+              <p class="my-2">Exp. Day :</p>
+              <input type="number" placeholder="Year" required class="w-100 p-2 px-3 rounded border border-black">
+            </div>
+          </div>
         </div>
+        <div class="mt-2 d-flex">
+          <button type="button" class="px-5 py-2 rounded border bag">Place Your Order</button>
+          <h5 class="mt-2 ms-4">Need help? <a href="./contactus.html">Contact us!</a></h5>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="p-5 c-bag">
+    <div class="container">
+      <h1 class="text-center mb-4">BEFORE PLACE CHECK THIS</h1>
+      <div class="row">
+        <div class="d-flex flex-wrap justify-content-evenly p-md-4">
+          <div class="card my-4 mx-4 shadow " style="width: 18rem;">
+            <img src="../images/card-1.jpeg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Bread slice Avocado</h5>
+              <p class="card-text">Cookie and kate</p>
+              <p><span class="me-5">50% OFF </span><span class="ms-5 ha"> &nbsp; Rs. 499/-</span></p>
+              <div class="d-flex justify-content-around">
+                <a href="#" onclick="addItem('../images/card-1.jpeg','Bread slice Avocado','499')">Add to Card</a>
+              </div>
+            </div>
+          </div>
+          <div class="card my-4 mx-4 shadow " style="width: 18rem;">
+            <img src="../images/card-2.jpeg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Pasta With Parmesan</h5>
+              <p class="card-text ">Cookie and kate</p>
+              <p><span class="me-5">50% OFF </span><span class="ms-5 ha"> &nbsp; Rs. 699/-</span></p>
+              <div class="d-flex justify-content-around">
+                <a href="#" onclick="addItem('../images/card-2.jpeg','Pasta With Parmesan','699')">Add to Card</a>
+              </div>
+            </div>
+          </div>
+          <div class="card my-4 mx-4 shadow " style="width: 18rem;">
+            <img src="../images/card-.3.jpg" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Cheese Burger</h5>
+              <p class="card-text">Cookie and kate</p>
+              <p><span class="me-5">50% OFF </span><span class="ms-5 ha"> &nbsp; Rs. 229/-</span></p>
+              <div class="d-flex justify-content-around">
+                <a href="#" onclick="addItem('../images/card-.3.jpg','Cheese Burger','229')">Add to Card</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="../js/orderNow.js"></script>
 </body>
 
 </html>
