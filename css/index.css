@@ -21,9 +21,10 @@ body{
 }
 .title{
 position: absolute;
-margin-top: -530px;
-margin-left: 100px;
+margin-top: -430px;
+margin-left: 150px;
 font-size: 40px;
+color: black;
 }
 .title-content{
     position: relative;
@@ -33,9 +34,10 @@ font-size: 40px;
 }
 .content{
     position: absolute;
-    margin-top: -450px;
-    margin-left: 100px;
-    font-size: 20px; 
+    margin-top: -350px;
+    margin-left: 150px;
+    font-size: 18px; 
+    color: black;
 }
 
 .btn-container{
@@ -43,9 +45,9 @@ font-size: 40px;
 }
 .btn-1{
     position: absolute;
-    margin-top: -300px;
+    margin-top: -250px;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 150px;
     background-color: #fb5f04;
     padding: 6px 10px;
 }
