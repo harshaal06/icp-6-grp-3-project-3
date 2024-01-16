@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
 body{
     background-color: #eef3f7;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
 .custom-search-container {
 max-width: 600px; 
 margin: 0 auto;
@@ -16,32 +21,29 @@ margin: 0 auto;
 width: 100px; 
 }
 .cards{
-margin-top: 30px; 
+margin-top: 40px; 
 margin-left: 10px;
 justify-content:space-around;
-box-shadow: 1px 3px 5px black;
 position: relative;
+border: solid 1px rgb(60, 60, 60);
+    transition: transform 0.5s;
 }
 .card1{
-margin: 40px;
-box-shadow: 1px 3px 10px black;
+margin: 30px;
+border: solid 1px rgb(60, 60, 60);
+transition: transform 0.5s;
 }
 .card1:hover{
-box-shadow: 2px 2px 15px black;
 transform: scale(1.03);
 }
 .cards:hover{
-box-shadow: 2px 2px 15px black;
 transform: scale(1.03);
 }
 .treding-card{
-box-shadow: 1px 3px 10px black;
+    transition: transform 0.5s;
+    border: solid 1px rgb(60, 60, 60);
 }
 .treding-card:hover{
-box-shadow: 2px 2px 15px black;
-transform: scale(1.03);
-}
-.card-img:hover{
 transform: scale(1.03);
 }
 .btn-1{
@@ -105,5 +107,7 @@ border-radius: 10px;
 .like-icon:hover{
 color: red;
 }
-
+nav{
+    background: #fff;
+}
 
