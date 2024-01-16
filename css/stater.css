@@ -9,6 +9,12 @@ margin: 0 auto;
 .custom-search-bar {
 width: 100px; 
 }
+.bag{
+    background-color: #fb5f04;
+}
+.ha{
+    color: #fb5f04;
+}
 .cards{
 margin-top: 30px; 
 margin-left: 10px;

@@ -6,7 +6,12 @@ body{
 max-width: 600px; 
 margin: 0 auto;
 }
-
+.bag{
+    background-color: #fb5f04;
+}
+.ha{
+    color: #fb5f04;
+}
 .custom-search-bar {
 width: 100px; 
 }
@@ -100,5 +105,7 @@ border-radius: 10px;
 .like-icon:hover{
 color: red;
 }
-
+nav{
+    background: #fff;
+}
 
