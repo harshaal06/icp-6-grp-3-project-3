@@ -24,3 +24,10 @@ body{
 .ha{
     color: #fb5f04;
 }
+.img-card-1{
+    cursor: pointer;
+    transition: 0.5s;
+}
+.img-card-1:hover {
+    transform: translateY(-10px);
+}
